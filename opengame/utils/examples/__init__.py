@@ -1,0 +1,3 @@
+"""
+opengame.utils.examples
+"""
