@@ -1,6 +1,9 @@
+import os
+import sys
 import uuid
 import random
 import string
+from ctypes import cdll
 from operator import eq
 from math import ceil, sqrt, inf
 from typing import List, Any, Callable, Tuple, Optional
@@ -16,7 +19,7 @@ __all__ = ['flatten', 'chunk', 'transpose', 'duplicate_removal', 'distance', 'Ve
            'Vector3', 'swizzling', 'mean', 'get_rc_grid', 'get_rc_rect', 'in_row',
            'get_peripheries', 'get_blank_board', 'lighting_game', 'find', 'random_captcha',
            'to_pygame', 'to_opengame', 'deque', 'switch', 'random', 'random_strings',
-           'choiceof']
+           'choiceof', 'inv_sqrt', 'integer_log2']
 
 
 def flatten(array: list):
@@ -412,3 +415,17 @@ def choiceof(*items):
 random.randchar = random_strings
 random.randcaptcha = random_captcha
 random.choiceof = choiceof
+
+
+def _get_math_dll():
+    root = os.path.dirname(__file__)
+    name = 'mathc.dll' if sys.platform == 'win32' else 'mathc.so'
+    return cdll.LoadLibrary(os.path.join(root, name))
+
+
+def inv_sqrt(n):
+    return _get_math_dll().InvSqrt(n)
+
+
+def integer_log2(n):
+    return _get_math_dll().IntegerLog2(n)
