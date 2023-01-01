@@ -1,0 +1,9 @@
+recursive-include opengame/core *.png
+recursive-include opengame/utils *.js
+recursive-include opengame/utils/builtin *.png
+recursive-include opengame/utils/builtin *.svg
+recursive-include opengame/utils/builtin *.wav
+recursive-include opengame/utils/builtin *.jpg
+recursive-include opengame/utils/builtin *.mp3
+recursive-include opengame/utils/builtin *.gif
+recursive-include opengame/utils/builtin *.bmp

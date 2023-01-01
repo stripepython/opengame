@@ -1,0 +1,6 @@
+pygame~=2.1.2
+requests~=2.28.1
+PyExecJS~=1.5.1
+opencv-python~=3.4.11.45
+pypiwin32~=223;platform_system=="Windows"
+pythonnet~=2.5.2;platform_system=="Windows"
