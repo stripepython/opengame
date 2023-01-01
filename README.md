@@ -66,3 +66,9 @@ Use `pip` install it:
 ```shell
 pip install -U opengame
 ```
+Use `git`:
+```shell
+git clone https://github.com/stripepython/opengame/
+cd opengame
+python setup.py install
+```
