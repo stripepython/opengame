@@ -88,4 +88,5 @@ def mouse_down():
             player = WHITE if player == BLACK else BLACK
 
 
-window.show()
+if __name__ == '__main__':
+    window.show()
