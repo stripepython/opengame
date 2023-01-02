@@ -1,7 +1,7 @@
 import opengame as og
 
 GRID_WIDTH = 50
-WIDTH = 14
+WIDTH = 8
 
 board = [[1] * WIDTH for _ in range(WIDTH)]
 window = og.Window('Lighting Game', (GRID_WIDTH * WIDTH, GRID_WIDTH * WIDTH))
