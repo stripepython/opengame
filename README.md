@@ -5,6 +5,9 @@ Document is writing, this is the dev version.
 
 Version: 1.0.2alpha
 
+# New
+1.0.2alpha: passed the test on `Windows 10` and `Ubuntu`.
+
 # Theory
 OpenGame built on `pygame2`. Many features of `pygame` are retained.   
 Therefore, it has good compatibility with `pygame`.
@@ -72,3 +75,6 @@ git clone https://github.com/stripepython/opengame/
 cd opengame
 python setup.py install
 ```
+
+# Document
+Writing...
