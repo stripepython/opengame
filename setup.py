@@ -22,7 +22,7 @@ setup(
         'glwindow': ['PyOpenGL'],
         'windows': ['pypiwin32', 'pythonnet'],
     },
-    version='1.0.2alpha',
+    version='1.0.2beta',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
