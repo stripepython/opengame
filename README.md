@@ -6,7 +6,7 @@ Document is writing, this is the dev version.
 Version: 1.0.2beta
 
 # New
-1.0.2alpha: passed the test on `Windows 10` and `Ubuntu`.
+1.0.2alpha: passed the test on `Windows 10` and `Ubuntu`.      
 1.0.2beta: deleted `opengame.utils.builtin.builtin` module
 
 # Theory
