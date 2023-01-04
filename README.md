@@ -74,6 +74,7 @@ Use `git`:
 ```shell
 git clone https://github.com/stripepython/opengame/
 cd opengame
+pip install -r requirements.txt
 python setup.py install
 ```
 
