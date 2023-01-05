@@ -81,7 +81,7 @@ python setup.py install
 # Where can I see OpenGame?
 - PYPI: [https://pypi.org/project/opengame/](https://pypi.org/project/opengame/)
 - Github: [https://github.com/stripepython/opengame/](https://github.com/stripepython/opengame/)
-- Document: [https://github.com/stripepython/opengame/](https://github.com/stripepython/opengame/)
+- Document: [https://stripepython.github.io/opengame/](https://stripepython.github.io/opengame/)
 - CSDN: [https://blog.csdn.net/weixin_38805653?type=blog](https://blog.csdn.net/weixin_38805653?type=blog)
 
 # Document
