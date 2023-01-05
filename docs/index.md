@@ -20,6 +20,11 @@ pip install -r requirements.txt
 python setup.py install
 ```
 
+Check whether installed it well:
+```shell
+python -m opengame version
+```
+
 # Write the First OpenGame Program
 After installing, we'll use OpenGame to write our first game.
 
