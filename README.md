@@ -62,7 +62,7 @@ Although using `pyglet` and `opengame` is similar, `opengame` has other reason w
 4. Lots of humanity design.
 
 ## The Inferiority
-1. Instability(Didn't pass the test);
+1. Instability;
 2. Not applicable to large projects.
 
 # Install
@@ -78,5 +78,11 @@ pip install -r requirements.txt
 python setup.py install
 ```
 
+# Where can I see OpenGame?
+- PYPI: [https://pypi.org/project/opengame/](https://pypi.org/project/opengame/)
+- Github: [https://github.com/stripepython/opengame/](https://github.com/stripepython/opengame/)
+- Document: [https://github.com/stripepython/opengame/](https://github.com/stripepython/opengame/)
+- CSDN: [https://blog.csdn.net/weixin_38805653?type=blog](https://blog.csdn.net/weixin_38805653?type=blog)
+
 # Document
-Writing...
+See [https://github.com/stripepython/opengame/](https://github.com/stripepython/opengame/) or `/docs/index.md`
