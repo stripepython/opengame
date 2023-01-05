@@ -2,6 +2,7 @@ recursive-include opengame/core *.png
 recursive-include opengame/utils *.js
 recursive-include opengame/utils *.c
 recursive-include opengame/utils *.dll
+recursive-include opengame/utils *.so
 recursive-include opengame/utils/builtin *.png
 recursive-include opengame/utils/builtin *.svg
 recursive-include opengame/utils/builtin *.wav
