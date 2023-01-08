@@ -10,3 +10,4 @@ recursive-include opengame/utils/builtin *.jpg
 recursive-include opengame/utils/builtin *.mp3
 recursive-include opengame/utils/builtin *.gif
 recursive-include opengame/utils/builtin *.bmp
+recursive-include opengame/utils/builtin *.ogg
