@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+from opengame.version import get_string
 
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
@@ -22,7 +23,7 @@ setup(
         'glwindow': ['PyOpenGL'],
         'windows': ['pypiwin32', 'pythonnet'],
     },
-    version='1.0.2beta',
+    version=get_string(),
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
