@@ -3,11 +3,13 @@ Document is writing, this is the dev version.
 
 ![Favicon](https://article.biliimg.com/bfs/article/8393f6fcdd2ac4e5d9eaaba6fc6dee3b1fd10bcb.png)
 
-Version: 1.0.2beta
+Version: 1.1.2
 
 # New
-1.0.2alpha: passed the test on `Windows 10` and `Ubuntu`.      
-1.0.2beta: deleted `opengame.utils.builtin.builtin` module
+1.1.2: Fixed bugs.
+1.1.0beta: added command-line tool.     
+1.0.2beta: deleted `opengame.utils.builtin.builtin` module.
+1.0.2alpha: passed the test on `Windows 10` and `Ubuntu`.
 
 # Theory
 OpenGame built on `pygame2`. Many features of `pygame` are retained.   
