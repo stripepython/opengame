@@ -6,13 +6,14 @@ Compile: gcc -shared -o mathc.dll mathc.c
 In Linux: gcc mathc.c -shared -fPIC -o mathc.so
 */
 
-float InvSqrt(float n)
-{
-    long i;
+#include <stdint.h>
+
+float InvSqrt(float n) {
+    uint32_t i;
     float x2, y;
     x2 = n * 0.5F;
     y = n;
-    i = *(long *) &y;
+    i = *(uint32_t *) &y;
     //i = 0x5f3759df - (i >> 1);
     i = 0x5f375a86 - (i >> 1);
     y = *(float *) &i;
